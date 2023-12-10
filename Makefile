@@ -6,3 +6,6 @@ dev:
 
 migrate:
 	poetry run python manage.py makemigrations && poetry run python manage.py migrate
+
+create_admin:
+	poetry run python manage.py createsuperuser
